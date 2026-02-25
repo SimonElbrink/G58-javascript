@@ -45,7 +45,7 @@ person.displayInfo();
 
 // Import and Export
 
-import Person from "./Person.js";
+import Person from "./Person.js"; // Default import
 import Address from "./Address.js";
 
 const johnsAddress = new Address("New York", "USA");
