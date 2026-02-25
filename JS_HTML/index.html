@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">JS In HTML</div>
+
+    <button id="clickME">Click Me!</button>
+
+    <h1 id="mainHeader">Hello!</h1>
+
+    <div style="color: red">Div 1</div>
+    <div style="color: blue">Div 2</div>
+
+    <script>
+      document.getElementById("main").innerHTML = "<b>I love JS!</b>";
+
+      document.getElementById("mainHeader").innerHTML = "<b>TEST<b/>";
+      document.getElementById("mainHeader").style.color = "green";
+
+      document.getElementsByTagName("div")[1].innerHTML = "UPDATE!";
+      document.getElementsByTagName("div")[1].style.color = "green";
+
+      const paragraphElement = document.createElement("p");
+
+      paragraphElement.innerText = "This is a paragraph";
+
+      document.getElementById("main").appendChild(paragraphElement);
+    </script>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
