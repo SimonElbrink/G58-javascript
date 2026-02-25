@@ -9,4 +9,4 @@ class Address {
     }
 }
 
-export default Address;  // Named export
+export default Address;  // Default export

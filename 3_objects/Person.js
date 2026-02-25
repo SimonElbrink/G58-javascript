@@ -21,4 +21,4 @@ class Person {
     }
 }
 
-export default Person;  // Named export
+export default Person;  // Default export
