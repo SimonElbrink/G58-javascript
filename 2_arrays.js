@@ -63,5 +63,5 @@ let lastIndexOfBanana = fruits.lastIndexOf("banana");
 console.log(lastIndexOfBanana); // Output: 1
 
 // Removing 'banana' using splice
-fruits.splice(lastIndexOfBanana, 1);
-console.log(fruits); // Output: ['apple', 'kiwi', 'orange', 'grape']
+let bananaMoved= fruits.toSpliced(lastIndexOfBanana, 1);
+console.log(bananaMove); // Output: ['apple', 'kiwi', 'orange', 'grape']
