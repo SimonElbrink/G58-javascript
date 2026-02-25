@@ -29,6 +29,21 @@
       paragraphElement.innerText = "This is a paragraph";
 
       document.getElementById("main").appendChild(paragraphElement);
+
+
+
+      // what is querySelector and when to use?
+      // querySelector is a method that returns the first element that matches a specified CSS selector.
+      // It allows you to select elements using CSS selectors, which can be more flexible than using methods like getElementById or getElementsByTagName.
+      // For example, you can use querySelector to select elements by class name, attribute, or even complex selectors.
+      // In this case, querySelector("button") selects the first <button> element in the document.
+      // give me a link to know more about querySelector
+      // https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector
+
+      const button = document.querySelector("button"); // This selects the first <button> element in the document.
+      // setAttribute("disabled", "") sets the "disabled" attribute on the button element.
+      button.setAttribute("disabled", "");
+      button.removeAttribute("disabled"); // This removes the "disabled" attribute from the button element.
     </script>
 
     <script src="./index.js"></script>
