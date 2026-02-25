@@ -13,7 +13,7 @@
 - Default parameters
 - Rest parameters (`...`)
 
-### Advanced Concepts
+### More Concepts
 - Template literals
 - Error handling (`try/catch/finally`)
 - Date manipulation
